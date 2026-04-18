@@ -55,22 +55,21 @@ projet_uber_pickups/
 ## Installation & Local Run
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/msshaqura/projet_uber_pickups.git
 
-2. Create virtual environment
+
+### 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-4. Run the dashboard
+### 4. Run the dashboard
 cd dashboard
 streamlit run app.py
 
-Dashboard Preview
+### Dashboard Preview
 The dashboard allows you to:
 
 Select day of week and hour
@@ -81,7 +80,7 @@ View interactive map with colored clusters and centroids
 
 See cluster statistics and driver recommendations
 
-Key Findings
+### Key Findings
 | Day	| Peak Hour |	Hot Zones |
 |-------|-----------|-------------|
 | Saturday | 6:00 PM | Downtown Manhattan (40.8%), Midtown (34.2%) |
@@ -90,21 +89,21 @@ Key Findings
 
 Best time for drivers: Saturday at 6:00 PM (1.31M pickups across 15 months)
 
-Future Improvements
+### Future Improvements
 Add predictive model (demand forecasting per zone)
 
 Integrate real-time traffic data
 
 Expand to other cities (Chicago, San Francisco)
 
-Author
+### Author
 Mohammed SHAQURA
 Data Analyst | Jedha Bootcamp
 
-License
+### License
 This project is for educational purposes as part of the Jedha Bootcamp certification.
 
-Acknowledgments
+### Acknowledgments
 Data source: Uber NYC pickups (2014-2015)
 
 Map tiles: CARTO Positron
