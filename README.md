@@ -1,4 +1,4 @@
-# 📧 Conversion Rate Prediction - Data Science Weekly
+# 🚕 Uber Pickups Hot Zones - New York City
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗-Live%20App-yellow)]
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://streamlit.io)
